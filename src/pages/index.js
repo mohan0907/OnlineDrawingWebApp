@@ -1,10 +1,8 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Menu from '@/components/Menu';
 
 export default function Home() {
   return (<>
+    <Menu/>
   </>
   )
 }
