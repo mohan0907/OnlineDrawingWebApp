@@ -2,7 +2,7 @@ import {
     createSlice
 } from "@reduxjs/toolkit";
 import { MENU_ITEMS, COLORS } from "@/components/constant";
-import menuSlice from "./menuSlice";
+
 const initialState = {
     [MENU_ITEMS.PENCIL]: {
         color: COLORS.BLACK,
